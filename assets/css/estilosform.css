@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #000;
+}
+
+.formulario {
+  background-color: rgba(9, 9, 9, 0); /* translúcido */
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 800px; /* antes estaba en 400px */
+  margin: 0 auto;
+  color: #000;
+  border: 2px solid #FFB000; /* Recuadro alrededor del formulario */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave para mejorar la apariencia */
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #FFB000;
+  border-radius: 5px;
+  color: #000;
+  background-color: rgba(38, 38, 38, 0.033); /* Blanco translúcido */
+  backdrop-filter: blur(2px); /* Opcional: desenfoque del fondo detrás del input */
+}
+
+.formulario button {
+  width: 50%; /* Reducí el ancho al 50%, o al que te guste */
+  margin: 0 auto; /* Esto lo centra horizontalmente */
+  padding: 10px;
+  background-color: #FFB000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario button:hover {
+  background-color: #FFB000; /* Puedes usar un tono más oscuro para el hover */
+}
+
+.fila {
+  display: flex;
+  gap: 15px;
+}
+
+.campo {
+  flex: 1;
+}
+
+.whatsapp-button {
+  position: fixed; /* Fija el botón en la pantalla */
+  bottom: 20px; /* Ubica el botón cerca de la parte inferior */
+  right: 20px; /* Ubica el botón al lado derecho */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega sombra para mejorar el aspecto */
+}
+
+.whatsapp-button a {
+  color: #FFA500; /* Naranja */
+  font-size: 40px; /* Ajusta el tamaño del ícono */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+.whatsapp-button a:hover {
+  color: #FF8C00; /* Cambia el color a un tono más oscuro de naranja cuando se pasa el ratón */
+}
+
+
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* espacio entre tarjetas */
+    padding: 20px 0;
+  }
+  
+  .gallery article {
+    width: 200px; /* tamaño de cada tarjeta */
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gallery .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gallery .caption {
+    padding: 10px;
+  }
+  
+  .gallery .caption h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .gallery .caption p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+
+  
