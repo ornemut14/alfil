@@ -40,7 +40,7 @@ body {
   margin-bottom: 15px;
   border: 1px solid #FFB000;
   border-radius: 5px;
-  color: #000;
+  color: #fefbfb;
   background-color: rgba(38, 38, 38, 0.033); /* Blanco translúcido */
   backdrop-filter: blur(2px); /* Opcional: desenfoque del fondo detrás del input */
 }
