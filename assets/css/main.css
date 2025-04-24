@@ -163,7 +163,7 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		color:#FFFDEE;
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -181,21 +181,21 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.75em;
 		line-height: 1.75em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			h2 {
-				font-size: 1.1em;
+				font-size: 1.75em;
 				line-height: 1.65em;
 			}
 
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.5em;
 		line-height: 1.75em;
 	}
 
@@ -2674,6 +2674,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		
 	}
 
 		.spotlight .image {
@@ -3418,7 +3419,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
